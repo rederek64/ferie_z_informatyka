@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-image: url("https://cdn.pixabay.com/photo/2014/07/29/10/37/fractal-404452_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .title,.p5drawing,.suwak {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  p {
+    color: #fff;
+  }
+
+  a {
+    color: #a0a9f7;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+
+.list {
+
+    position: absolute;
+    
+    width: 0px;
+    height: 100%;
+    top: 0px;
+
+    background-color: #1b1b1b;
+
+}
+
+.list_button {
+    
+    background-color: #f85454;
+    top: 25px;
+    width: 35px;
+    height: 50px;;
+    border-radius: 50%;
+    left: -20px;
+
+    cursor: pointer;
+
+    position: relative;
+
+}
+
+.list_lis,.list_title {
+    display: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+.list_title {
+    margin-left: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
