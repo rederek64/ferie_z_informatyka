@@ -4,7 +4,7 @@ html, body {
   }
   
   body {
-    background-image: url("https://cdn.pixabay.com/photo/2014/07/29/10/37/fractal-404452_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/03/10/22/06/fractal-2133856_960_720.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -32,13 +32,13 @@ html, body {
 }
 
 .container {
-  background: linear-gradient(
-    rgba(0,0,0,0.5),
-    rgba(0,0,0,0.5)
-  );
-  min-height: 100%;
-  min-width: 100%;
-  position: absolute;
+    background: linear-gradient(
+      rgba(0,0,0,0.5),
+      rgba(0,0,0,0.5)
+    );
+    min-height: 100%;
+    min-width: 100%;
+    position: absolute;
 }
 
 .list {

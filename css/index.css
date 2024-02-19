@@ -87,3 +87,21 @@ a {
 #title2 {
     font-weight: lighter;
 }
+
+.main_btn {
+    height: 50px; 
+    color: #fff;
+    background-color: #b62f2f;
+    border-radius: 10px;
+    border: 0px;
+    transition-duration: 0.5s;
+}
+
+.main_btn:hover {
+    transform: scale(90%);
+}
+
+.main_btn:active {
+    transition-duration: 0s;
+    background-color: #fff;
+}

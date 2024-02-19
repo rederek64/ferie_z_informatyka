@@ -14,11 +14,6 @@
             <h3 class="list_title">FRAKTALE:</h3>
             <ul class="list_lis">
                 <li><a href="/">Fraktale - strona główna</a></li>
-                <li><a href="/def">Fraktale - definicja</a></li>
-                <li><a href="/fraktale_p">Fraktale w przyrodzie</a></li>
-                <li><a href="/fraktale_a">Fraktale w architekturze</a></li>
-                <li><a href="/fraktale_s">Fraktale w sztuce</a></li>
-                <li><a href="/fraktale_m">Fraktale w matematyce</a></li>
                 <li><a href="/cantor">Zbiór Cantora</a></li>
                 <li><a href="/koch">Krzywa Kocha</a></li>
                 <li><a href="/binary_tree">Drzewo binarne</a></li>
@@ -31,11 +26,21 @@
                 <div class="title_headers">
                     <h1 id="title1">Fraktale</h1>
                     <h2 id="title2">Jakub Jaworski - IIIB</h2>
+                    <p class="def"></p>
+                    <img class="def_img">
+                </div>
+                <div>
+                    <button onclick="def(this.id)" id="def" class="main_btn">Definicja</button>
+                    <button onclick="def(this.id)" id="przyroda" class="main_btn">Fraktale w przyrodzie</button>
+                    <button onclick="def(this.id)" id="architektura" class="main_btn">Fraktale w architekturze</button>
+                    <button onclick="def(this.id)" id="matematyka" class="main_btn">Fraktale w matematyce</button>
+                    <button onclick="def(this.id)" id="sztuka" class="main_btn">Fraktale w sztuce</button>
                 </div>
             </div>    
         </div>
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script lang="javascript" src="./js/index.js"></script>
+        <script lang="javascript" src="./js/texts.js"></script>
     </body>
 </html>
